@@ -9,8 +9,8 @@ commonLabels:
 configMapGenerator:
 - name: pipeline-vars
   literals:
-  - REPLICAS=2
   - IMAGE=nginx:1.25
+  - REPLICAS=2
   - CPU_REQUEST=100m
   - MEMORY_REQUEST=128Mi
   - CPU_LIMIT=200m
