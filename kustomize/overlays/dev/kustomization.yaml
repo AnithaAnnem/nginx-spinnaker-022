@@ -7,5 +7,5 @@ commonLabels:
   env: dev
 
 replicas:
-- name: nginx-app
+- name: nginx
   count: 2
