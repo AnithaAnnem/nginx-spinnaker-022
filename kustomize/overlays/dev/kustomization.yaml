@@ -1,0 +1,11 @@
+resources:
+- ../../base
+
+nameSuffix: -dev
+
+commonLabels:
+  env: dev
+
+replicas:
+- name: nginx-app
+  count: 2
