@@ -1,5 +1,8 @@
 resources:
 - ../../base
+- ../../generated/deployment.yaml
+- ../../generated/service.yaml
+
 
 nameSuffix: -dev
 
